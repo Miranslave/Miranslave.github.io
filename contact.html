@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Farès</title>
+  <title>Willism</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
@@ -31,7 +31,6 @@
 <body>
   <div class="hero_area">
     <!-- header section strats -->
-    <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
         <div class="row">
@@ -39,42 +38,30 @@
             <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
               <a class="navbar-brand" href="index.html">
                 <span>
-                  Farès Zaroui
+                  Willism
                 </span>
               </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div
-                class="collapse navbar-collapse"
-                id="navbarSupportedContent"
-              >
-                <div
-                  class="d-flex ml-auto flex-column flex-lg-row align-items-center"
-                >
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                   <ul class="navbar-nav  ">
-                    <li class="nav-item">
-                      <a class="nav-link pl-0" href="index.html"
-                        >Accueil <span class="sr-only">(current)</span></a
-                      >
+                    <li class="nav-item ">
+                      <a class="nav-link pl-0" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="work.html"> Mes Projets </a>
+                      <a class="nav-link" href="about.html"> About </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="work.html">MyWork </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html"> Blog </a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="about.html"> Cv </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="abouteng.html"> English Version </a>
+                      <a class="nav-link" href="contact.html">Contact us</a>
                     </li>
                   </ul>
                 </div>
@@ -85,57 +72,72 @@
       </div>
     </header>
     <!-- end header section -->
-    <!-- end header section -->
+
   </div>
   <!-- end hero area -->
 
-  <!-- about section -->
+  <!-- contact section -->
 
-  <section class="about_section layout_padding">
+  <section class="contact_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-          Voici mon CV
+          Contact Us
         </h2>
       </div>
-            <div id="divContenant" class="col-md-12 col-lg-8" style="margin : auto">
-                <object id="PDFCV" data='assets\Cv_Fares2022.pdf' type='application/pdf' style="min-height:100vh;width:100%"><p>Si le CV ne s'affiche pas, téléchargez le <a href='assets\Cv_Fares2022.pdf'>ici</a> </p></object>
+      <div class="">
+        <div class="">
+          <div class="row">
+            <div class="col-md-9 mx-auto">
+              <div class="contact-form">
+                <form action="">
+                  <div>
+                    <input type="text" placeholder="Full Name " />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Phone Number" />
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email Address" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Message" class="input_message" />
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn_on-hover">
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
-            <script>
-                function resizePDF() {
-                    var wd = document.getElementById('divContenant').clientWidth;
-                    var newHgt = wd * 297 / 210;
-                    document.getElementById("PDFCV").style.minHeight = newHgt + "px";
-                }
-                window.onload = resizePDF;
-                window.onresize = resizePDF;
-            </script>
-            <br />
-            <br />
+          </div>
         </div>
       </div>
-    
+    </div>
   </section>
 
-  <!-- end about section -->
+  <!-- end contact section -->
 
   <!-- info section -->
   <section class="info_section layout_padding-top layout_padding2-bottom">
     <div class="container">
       <div class="social_container">
         <h2>
-          Mes réseaux
+          Follow Us
         </h2>
         <div class="social_box">
-          <input type="text" value="fares.zaroui@etu.univ-lyon1.fr" id="myMail" style="position:absolute;left:-1000px">
-          <a href="#" onclick="CopytoClipboard()">
-            <img src="images/envelope-white.png" alt="" />
+          <a href="">
+            <img src="images/fb.png" alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/farès-zaroui-0402881b7/" target="_blank" rel="noopener noreferrer">
+          <a href="">
+            <img src="images/twitter.png" alt="" />
+          </a>
+          <a href="">
             <img src="images/linkedin.png" alt="" />
           </a>
-          <a href="https://github.com/Miranslave" target="_blank" rel="noopener noreferrer">
-            <img src="images/Github.png" alt="" />
+          <a href="">
+            <img src="images/youtube.png" alt="" />
           </a>
         </div>
       </div>
@@ -165,13 +167,6 @@
 
     function closeNav() {
       document.getElementById("myNav").style.width = "0%";
-    }
-
-    function CopytoClipboard() {
-      var copyText = document.getElementById("myMail");
-      copyText.select();
-      document.execCommand("copy");
-      alert("Copied the text: " + copyText.value);
     }
   </script>
 
